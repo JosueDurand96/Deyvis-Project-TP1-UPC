@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/fragment_home_scene"
+    tools:context=".ui.home.HomeFragment">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/lblNombreUsuario"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgUsuario2"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="42dp"
+            android:layout_marginEnd="8dp"
+            android:gravity="center"
+            android:text="Juan Perez"
+            android:textAlignment="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="#0d8208"
+            android:textSize="42sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.456" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtGanados"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="76dp"
+            android:layout_marginTop="10dp"
+            android:text="Ganados" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtCanjeados"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="9dp"
+            android:layout_marginEnd="68dp"
+            android:text="Canjeados" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="88dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtDisponibles"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="162dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginEnd="161dp"
+            android:text="Disponibles" />
+
+        <TextView
+            android:id="@+id/txtGanados"
+            android:layout_width="126dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/lblNombreUsuario"
+            android:layout_alignParentStart="true"
+            android:layout_centerHorizontal="false"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="53dp"
+            android:background="#0d8208"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/txtCanjeados"
+            android:layout_width="126dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/lblNombreUsuario"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="53dp"
+            android:layout_marginEnd="39dp"
+            android:background="#0d8208"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/txtDisponibles"
+            android:layout_width="126dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/lblNombreUsuario"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="136dp"
+            android:layout_marginTop="156dp"
+            android:layout_marginEnd="145dp"
+            android:background="#0d8208"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp" />
+
+        <ImageView
+            android:id="@+id/imgUsuario2"
+            android:layout_width="160dp"
+            android:layout_height="148dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="125dp"
+            android:layout_marginTop="29dp"
+            android:layout_marginEnd="126dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.026"
+            app:srcCompat="@drawable/imagenperfil" />
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
