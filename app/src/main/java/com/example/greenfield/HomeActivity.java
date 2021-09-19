@@ -18,9 +18,9 @@ public class HomeActivity extends AppCompatActivity {
         fotoString = getIntent().getStringExtra("fotoString");
         imageView2 = findViewById(R.id.imageView2);
 
-        byte[] foodImage = fotoString.getBytes();
-        Bitmap bitmap = BitmapFactory.decodeByteArray(foodImage, 0, foodImage.length);
-        imageView2.setImageBitmap(bitmap);
+//        byte[] foodImage = fotoString.getBytes();
+//        Bitmap bitmap = BitmapFactory.decodeByteArray(foodImage, 0, foodImage.length);
+//        imageView2.setImageBitmap(bitmap);
 
     }
 }
