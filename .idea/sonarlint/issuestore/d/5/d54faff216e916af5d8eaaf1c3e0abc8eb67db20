@@ -1,0 +1,31 @@
+
+k	java:S116"QRename this field "Nombre" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ΰ±Εάÿÿÿÿÿ
+t	java:S116"ZRename this field "ApellidoMaterno" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ΰ±Εάÿÿÿÿÿ
+t	java:S116"ZRename this field "ApellidoPaterno" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ΰ±Εάÿÿÿÿÿ
+h	java:S116"NRename this field "DNI" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ΰ±Εάÿÿÿÿÿ
+k	java:S116"QRename this field "Correo" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ΰ±Εάÿÿÿÿÿ
+m	java:S116"SRename this field "Telefono" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ΰ±Εάÿÿÿÿÿ
+n	java:S116"TRename this field "Direccion" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ΰ±Εάÿÿÿÿÿ
+l	java:S116"RRename this field "Usuario" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ΰ±Εάÿÿÿÿÿ
+j	java:S116"PRename this field "Clave" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ΰ±Εάÿÿÿÿÿ
+o	java:S116"URename this field "FotoPerfil" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(““Έωÿÿÿÿ
+H
+java:S1659"-Declare "ApellidoMaterno" on a separate line.(ΰ±Εάÿÿÿÿÿ
+H
+java:S1659"-Declare "ApellidoPaterno" on a separate line.(ΰ±Εάÿÿÿÿÿ
+<
+java:S1659"!Declare "DNI" on a separate line.(ΰ±Εάÿÿÿÿÿ
+?
+java:S1659"$Declare "Correo" on a separate line.(ΰ±Εάÿÿÿÿÿ
+A
+java:S1659"&Declare "Telefono" on a separate line.(ΰ±Εάÿÿÿÿÿ
+B
+java:S1659"'Declare "Direccion" on a separate line.(ΰ±Εάÿÿÿÿÿ
+@
+java:S1659"%Declare "Usuario" on a separate line.(ΰ±Εάÿÿÿÿÿ
+>
+java:S1659"#Declare "Clave" on a separate line.(ΰ±Εάÿÿÿÿÿ
+W	java:S107"BConstructor has 11 parameters, which is greater than 7 authorized.(ƒ€άπ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ€άπ
+f	java:S117:"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°Εέ
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(κ‰­ή

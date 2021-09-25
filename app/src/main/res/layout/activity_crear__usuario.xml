@@ -26,229 +26,223 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
-                    <ImageView
-                        android:id="@+id/imageView"
-                        android:layout_width="144dp"
-                        android:layout_height="141dp"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.902"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="0.027"
-                        app:srcCompat="@drawable/greenfield" />
-
                     <TextView
                         android:id="@+id/textregistry"
-                        android:layout_width="223dp"
+                        android:layout_width="match_parent"
                         android:layout_height="36dp"
                         android:text="Crear usuario"
                         android:textAlignment="center"
                         android:textColor="#0d8208"
                         android:textSize="28sp"
                         android:textStyle="bold"
-                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:layout_marginTop="15dp"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.0"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="0.108"
                         tools:ignore="MissingConstraints" />
 
-                    <TextView
-                        android:id="@+id/textnombre"
-                        android:layout_width="89dp"
-                        android:layout_height="21dp"
-                        android:text="Nombres:"
-                        android:textColor="@color/black"
-                        app:layout_constraintBottom_toBottomOf="parent"
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="144dp"
+                        android:layout_height="141dp"
+                        android:layout_marginTop="10dp"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.152"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="0.301" />
+                        app:layout_constraintTop_toBottomOf="@+id/textregistry"
+                        app:srcCompat="@drawable/greenfield" />
 
-                    <EditText
-                        android:id="@+id/nombre"
-                        android:layout_width="184dp"
-                        android:layout_height="42dp"
-                        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
-                        android:maxLength="100"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.702"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="0.285" />
-
-                    <EditText
-                        android:id="@+id/apellido"
-                        android:layout_width="189dp"
-                        android:layout_height="43dp"
-                        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
-                        android:inputType="text"
-                        android:maxLength="100"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.702"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="0.361" />
-
-                    <EditText
-                        android:id="@+id/dni"
-                        android:layout_width="181dp"
-                        android:layout_height="45dp"
-                        android:inputType="number"
-                        android:maxLength="8"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.702"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="0.443" />
-
-                    <EditText
-                        android:id="@+id/txtOtraPersonaCorreo"
-                        android:layout_width="161dp"
-                        android:layout_height="40dp"
-                        android:inputType="textEmailAddress"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.785"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="0.517" />
-
-                    <EditText
-                        android:id="@+id/telefono"
-                        android:layout_width="159dp"
-                        android:layout_height="45dp"
-                        android:inputType="phone"
-                        android:maxLength="9"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.785"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="0.595" />
-
-                    <EditText
-                        android:id="@+id/direccion"
-                        android:layout_width="150dp"
-                        android:layout_height="43dp"
-                        android:maxLength="150"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.785"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="0.677" />
-
-                    <EditText
-                        android:id="@+id/usuario"
-                        android:layout_width="159dp"
-                        android:layout_height="45dp"
-                        android:maxLength="20"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.785"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="0.751" />
-
-                    <TextView
-                        android:id="@+id/textapellido"
-                        android:layout_width="89dp"
-                        android:layout_height="21dp"
-                        android:layout_marginTop="248dp"
-                        android:text="Apellidos:"
-                        android:textColor="@color/black"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.152"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
-
-                    <TextView
-                        android:id="@+id/textdni"
-                        android:layout_width="89dp"
-                        android:layout_height="21dp"
-                        android:layout_marginTop="296dp"
-                        android:text="DNI:"
-                        android:textColor="@color/black"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.152"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
-
-                    <TextView
-                        android:id="@+id/textcorreo"
-                        android:layout_width="135dp"
-                        android:layout_height="18dp"
-                        android:layout_marginTop="344dp"
-                        android:text="Correo Electronico:"
-                        android:textColor="@color/black"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.177"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
-
-                    <TextView
-                        android:id="@+id/texttelefono"
-                        android:layout_width="135dp"
-                        android:layout_height="18dp"
-                        android:layout_marginTop="392dp"
-                        android:text="Nro Telefono:"
-                        android:textColor="@color/black"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.177"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
-
-                    <TextView
-                        android:id="@+id/texttelefono2"
-                        android:layout_width="135dp"
-                        android:layout_height="18dp"
-                        android:layout_marginTop="448dp"
-                        android:text="Dirección:"
-                        android:textColor="@color/black"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.177"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
-
-                    <TextView
-                        android:id="@+id/texttelefono3"
-                        android:layout_width="135dp"
-                        android:layout_height="18dp"
-                        android:layout_marginTop="496dp"
-                        android:text="Usuario:"
-                        android:textColor="@color/black"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.177"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
-
-
-                    <TextView
-                        android:id="@+id/usuariottTextView"
-                        android:layout_width="wrap_content"
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/nombreTextInputLayout"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="55dp"
-                        android:layout_marginTop="30dp"
-                        android:text="Clave:"
-                        android:textColor="@color/black"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/texttelefono3" />
-
-                    <EditText
-                        android:id="@+id/claveEditText"
-                        android:layout_width="159dp"
-                        android:layout_height="45dp"
-                        android:layout_marginStart="92dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
                         android:layout_marginTop="20dp"
-                        app:layout_constraintStart_toEndOf="@+id/usuariottTextView"
-                        app:layout_constraintTop_toBottomOf="@+id/texttelefono3" />
+                        android:textColorHint="@color/black"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView"
+                        app:passwordToggleTint="@color/black"
+                        app:theme="@style/MyStyle">
+
+                        <EditText
+                            android:id="@+id/nombre"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:hint="Nombre"
+                            android:inputType="textPersonName"
+                            android:maxLength="25"
+                            android:textColor="@color/black" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/apellidoTextInputLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="20dp"
+                        android:textColorHint="@color/black"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/nombreTextInputLayout"
+                        app:passwordToggleTint="@color/black"
+                        app:theme="@style/MyStyle">
+
+                        <EditText
+                            android:id="@+id/apellido"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:hint="apellido"
+                            android:inputType="textPersonName"
+                            android:maxLength="25"
+                            android:textColor="@color/black" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/dniTextInputLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="20dp"
+                        android:textColorHint="@color/black"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/apellidoTextInputLayout"
+                        app:passwordToggleTint="@color/black"
+                        app:theme="@style/MyStyle">
+
+                        <EditText
+                            android:id="@+id/dni"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:hint="dni"
+                            android:inputType="textPersonName"
+                            android:maxLength="25"
+                            android:textColor="@color/black" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/txtOtraPersonaCorreoTextInputLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="20dp"
+                        android:textColorHint="@color/black"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/dniTextInputLayout"
+                        app:passwordToggleTint="@color/black"
+                        app:theme="@style/MyStyle">
+
+                        <EditText
+                            android:id="@+id/txtOtraPersonaCorreo"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:hint="Correo"
+                            android:inputType="textPersonName"
+                            android:maxLength="25"
+                            android:textColor="@color/black" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/telefonoTextInputLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="20dp"
+                        android:textColorHint="@color/black"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/txtOtraPersonaCorreoTextInputLayout"
+                        app:passwordToggleTint="@color/black"
+                        app:theme="@style/MyStyle">
+
+                        <EditText
+                            android:id="@+id/telefono"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:hint="telefono"
+                            android:inputType="textPersonName"
+                            android:maxLength="25"
+                            android:textColor="@color/black" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/direccionTextInputLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="20dp"
+                        android:textColorHint="@color/black"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/telefonoTextInputLayout"
+                        app:passwordToggleTint="@color/black"
+                        app:theme="@style/MyStyle">
+
+                        <EditText
+                            android:id="@+id/direccion"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:hint="direccion"
+                            android:inputType="textPersonName"
+                            android:maxLength="25"
+                            android:textColor="@color/black" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/usuarioTextInputLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="20dp"
+                        android:textColorHint="@color/black"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/direccionTextInputLayout"
+                        app:passwordToggleTint="@color/black"
+                        app:theme="@style/MyStyle">
+
+                        <EditText
+                            android:id="@+id/usuario"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:hint="usuario"
+                            android:inputType="textPersonName"
+                            android:maxLength="25"
+                            android:textColor="@color/black" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/claveEditTextTextInputLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="20dp"
+                        android:textColorHint="@color/black"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/direccionTextInputLayout"
+                        app:passwordToggleTint="@color/black"
+                        app:theme="@style/MyStyle">
+
+                        <EditText
+                            android:id="@+id/claveEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:hint="Clave"
+                            android:inputType="textPersonName"
+                            android:maxLength="25"
+                            android:textColor="@color/black" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
 
                     <ImageView
                         android:id="@+id/imagen"
@@ -260,7 +254,7 @@
                         android:backgroundTint="#0d8208"
                         android:text="Imagen:"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/usuariottTextView" />
+                        app:layout_constraintTop_toBottomOf="@+id/claveEditTextTextInputLayout" />
 
                     <Button
                         android:id="@+id/crear"
@@ -292,8 +286,6 @@
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </LinearLayout>
         </ScrollView>
-
     </RelativeLayout>
-
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

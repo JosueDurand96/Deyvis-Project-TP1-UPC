@@ -1,0 +1,17 @@
+
+|
+java:S1450 "aRemove the "dashboardViewModel" field and declare it as a local variable in the relevant methods.(Åë€úÿÿÿÿ
+U
+java:S1161)":Add the "@Override" annotation above this method signature(î•Éğûÿÿÿÿ
+t
+java:S22931"YReplace the type specification in this constructor call with the diamond operator ("<>").(¶ÕØØÿÿÿÿÿ
+P	java:S1255"<This block of commented-out lines of code should be removed.(ÜëÍy
+K
+java:S1481Y"0Remove this unused "itemsSelect" local variable.(ûĞºÀøÿÿÿÿ
+P	java:S125_"<This block of commented-out lines of code should be removed.(ŠŒV
+Q
+java:S1068 "6Remove this unused "dashboardViewModel" private field.(Åë€úÿÿÿÿ
+N
+java:S1068""3Remove this unused "buttonContinuar" private field.(¶ºÚøúÿÿÿÿ
+2
+java:S1643\"Use a StringBuilder instead.(ÅÙò¼

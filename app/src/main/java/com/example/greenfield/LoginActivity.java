@@ -8,6 +8,7 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ProgressBar;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.AuthFailureError;
@@ -28,6 +29,7 @@ import java.util.Map;
 public class LoginActivity extends AppCompatActivity {
     EditText etName, etPassword;
     ProgressBar progressBar;
+    TextView textView4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,8 +38,14 @@ public class LoginActivity extends AppCompatActivity {
         progressBar = findViewById(R.id.progressBar);
         etName = findViewById(R.id.etUserName);
         etPassword = findViewById(R.id.etUserPassword);
-
-
+        textView4 = findViewById(R.id.textView4);
+        textView4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), ReestablecerPasswordActivity.class);
+                startActivity(intent);
+            }
+        });
         //calling the method userLogin() for login the user
         findViewById(R.id.btnLogin).setOnClickListener(new View.OnClickListener() {
             @Override
