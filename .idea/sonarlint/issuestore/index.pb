@@ -37,8 +37,6 @@ R.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_android_1_4_1.
 S.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_jvm_1_4_1.xml,3/a/3a68a720aa8c2759d3ac734c34ef218115753e3f
 L
 .idea/modules/GreenField.iml,a/6/a6b87f14ba7886970cd77549145392253b2fe03f
-X
-(gradle/wrapper/gradle-wrapper.properties,f/b/fbe448ebfc3eb2d4e308f6b8b043666f5b57235e
 A
 gradle.properties,2/a/2afbb999f001938c88fa43fc2ef52abf0f8213e4
 7

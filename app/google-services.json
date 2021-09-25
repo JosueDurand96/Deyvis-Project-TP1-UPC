@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "523309948607",
+    "project_id": "greefield-1f3d9",
+    "storage_bucket": "greefield-1f3d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523309948607:android:f32475527dbe6456d5300a",
+        "android_client_info": {
+          "package_name": "com.example.greenfield"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "523309948607-24b96b3b2b5hcnebb31c9r6vluhtbh91.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.greenfield",
+            "certificate_hash": "d29addb84044f27c6247c3f4f3e324d3e8743f54"
+          }
+        },
+        {
+          "client_id": "523309948607-to8rurrmnmdrtp00eivo3f9os8c1o9jj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgop4lynMGB8JqNEkEmUIj0bPHpPK-_og"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "523309948607-to8rurrmnmdrtp00eivo3f9os8c1o9jj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

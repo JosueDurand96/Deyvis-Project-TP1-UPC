@@ -27,6 +27,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class LoginActivity extends AppCompatActivity {
+
     EditText etName, etPassword;
     ProgressBar progressBar;
     TextView textView4;
@@ -42,7 +43,7 @@ public class LoginActivity extends AppCompatActivity {
         textView4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), ReestablecerPasswordActivity.class);
+                Intent intent = new Intent(getApplicationContext(), ChangePasswordActivity.class);
                 startActivity(intent);
             }
         });

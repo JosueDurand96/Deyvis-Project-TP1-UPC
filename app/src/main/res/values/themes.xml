@@ -27,6 +27,15 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="AppTheme.BPayCustomTil" parent="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">18dp</item>
+        <item name="boxCornerRadiusTopEnd">18dp</item>
+        <item name="boxCornerRadiusBottomStart">18dp</item>
+        <item name="boxCornerRadiusBottomEnd">18dp</item>
+        <item name="boxBackgroundColor">@color/background_sale_fragment_color</item>
+        <item name="boxBackgroundMode">outline</item>
+    </style>
+
     <style name="Theme.GreenField.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.GreenField.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />

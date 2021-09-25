@@ -8,4 +8,5 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="colorPrimary">#607546</color>
+    <color name="background_sale_fragment_color">#FFFFFF</color>
 </resources>
