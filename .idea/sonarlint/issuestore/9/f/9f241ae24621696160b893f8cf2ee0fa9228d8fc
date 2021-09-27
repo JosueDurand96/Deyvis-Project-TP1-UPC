@@ -1,0 +1,52 @@
+
+~
+java:S14501"cRemove the "permissionsToRequest" field and declare it as a local variable in the relevant methods.(Ù¿Çüÿÿÿÿ
+J
+java:S1874t"/Remove this use of "execute"; it is deprecated.(‘‘üÿÿÿÿ
+>
+java:S1185‘"(Remove this method to simply inherit it.(ºŠñ=
+H
+java:S1874ª"1Remove this use of "AsyncTask"; it is deprecated.(Òé¾
+f
+java:S1874ó"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(İÇâÇúÿÿÿÿ
+V
+java:S1161ó":Add the "@Override" annotation above this method signature(İÇâÇúÿÿÿÿ
+W
+java:S1126Š"AReplace this if-then-else statement by a single return statement.(µ†Êu
+J
+java:S1874“".Remove this use of "Camera"; it is deprecated.(›µÌ÷úÿÿÿÿ
+E
+java:S1874”".Remove this use of "Camera"; it is deprecated.(ÙÀĞ£
+E
+java:S1874–".Remove this use of "Camera"; it is deprecated.(Ùáö‘
+C
+java:S1874–",Remove this use of "open"; it is deprecated.(Ùáö‘
+T
+java:S1144‰"8Remove this unused private "checkCameraHardware" method.(æÁ‚Ïùÿÿÿÿ
+^
+java:S1192Ì"GDefine a constant instead of duplicating this literal "UTF-8" 18 times.(Ñ‚‰ö
+E
+java:S1066W"/Merge this if statement with the enclosing one.(Ä¸‹¬
+J
+java:S1066^"/Merge this if statement with the enclosing one.(ù²ğ×ùÿÿÿÿ
+e	java:S117;"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûƒí2
+f	java:S117<"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ’ëù
+k	java:S117="QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦æÈïûÿÿÿÿ
+k	java:S117>"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿éĞ€ÿÿÿÿÿ
+f	java:S117?"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úË¨à
+f	java:S117@"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìÂ‹¤
+k	java:S117A"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õ°îÚÿÿÿÿÿ
+k	java:S117B"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Òîëüÿÿÿÿ
+l	java:S117¶"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•‚¼Şûÿÿÿÿ
+>
+java:S1604F"(Make this anonymous inner class a lambda(ìçıø
+>
+java:S1604e"(Make this anonymous inner class a lambda(…ÆÌò
+Y
+java:S1155^">Use isEmpty() to check whether the collection is empty or not.(ù²ğ×ùÿÿÿÿ
+€
+java:S1488ü"dImmediately return this expression instead of assigning it to the temporary variable "encodedImage".(¸¬Ğóÿÿÿÿÿ
+x
+java:S1488†"aImmediately return this expression instead of assigning it to the temporary variable "byteArray".(±Ò‘ß
+q
+java:S11040"VMake imagePhoto a static final constant or non-public and provide accessors if needed.(ı™÷Åşÿÿÿÿ
