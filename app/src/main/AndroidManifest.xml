@@ -38,7 +38,9 @@
             android:name=".MapsActivity"
             android:label="@string/title_activity_maps"></activity>
         <activity android:name=".ChangePasswordActivity" />
-        <activity android:name=".ReestablecerPasswordActivity" />
+        <activity android:name=".ReestablecerPasswordActivity">
+
+        </activity>
         <activity
             android:name=".DashboardActivity"
             android:exported="true"

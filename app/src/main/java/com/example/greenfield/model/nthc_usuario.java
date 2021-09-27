@@ -1,4 +1,4 @@
-package com.example.greenfield.service;
+package com.example.greenfield.model;
 
 public class nthc_usuario {
     private int id;

@@ -172,9 +172,10 @@ class ChangePasswordActivity : AppCompatActivity() {
             .addOnSuccessListener {
                 progressDialog.dismiss()
                 val phone = firebaseAuth.currentUser.phoneNumber
-                Toast.makeText(this, "Se logro identificar con este cel: $phone", Toast.LENGTH_LONG).show()
+                Toast.makeText(this, "Se logro identificar con este cel: $phone", Toast.LENGTH_LONG)
+                    .show()
                 val intent = Intent(this, ReestablecerPasswordActivity::class.java)
-                intent.putExtra("phone",phoneEdittext.text.toString())
+                intent.putExtra("phone", phoneEdittext.text.toString())
                 startActivity(intent)
             }
             .addOnFailureListener { e ->

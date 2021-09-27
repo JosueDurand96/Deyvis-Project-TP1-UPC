@@ -5,11 +5,14 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48aab72e-8f78-47ac-97e9-055c9f815b56" name="Default Changelist" comment="">
+    <list default="true" id="48aab72e-8f78-47ac-97e9-055c9f815b56" name="Default Changelist" comment="ayudin">
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
@@ -20,7 +23,23 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/e/0efd41d0e4b402c01ceb5d7a8187786249e5439f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/5/d54faff216e916af5d8eaaf1c3e0abc8eb67db20" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/efa9dba70784d724969a4af9811c9f99679c022e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/greenfield/ChangePasswordActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/greenfield/ChangePasswordActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/greenfield/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/greenfield/LoginActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/greenfield/ReestablecerPasswordActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/greenfield/ReestablecerPasswordActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/greenfield/service/ClienteListviewAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/greenfield/controller/ClienteListviewAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/greenfield/service/Puntaje.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/greenfield/controller/Puntaje.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/greenfield/service/URLs.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/greenfield/util/URLs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/greenfield/service/VolleySingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/greenfield/controller/VolleySingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/greenfield/service/nthc_usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/greenfield/model/nthc_usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/greenfield/ui/home/HomeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/greenfield/ui/home/HomeFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_reestablecer_password.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_reestablecer_password.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632611592923</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ayudin">
+      <created>1632611930149</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1632611930149</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -215,98 +241,98 @@
       <screen x="0" y="25" width="1792" height="1036" />
     </state>
     <state x="918" y="264" key="#com.intellij.ide.util.MemberChooser/0.25.1792.1036@0.25.1792.1036" timestamp="1632070587574" />
-    <state x="635" y="115" key="CommitChangelistDialog2" timestamp="1632611592329">
-      <screen x="0" y="25" width="1792" height="1035" />
+    <state x="635" y="115" key="CommitChangelistDialog2" timestamp="1632718878346">
+      <screen x="0" y="25" width="1792" height="1036" />
     </state>
     <state x="635" y="115" key="CommitChangelistDialog2/0.25.1792.1035@0.25.1792.1035" timestamp="1632611592329" />
-    <state x="635" y="115" key="CommitChangelistDialog2/0.25.1792.1036@0.25.1792.1036" timestamp="1632583991075" />
+    <state x="635" y="115" key="CommitChangelistDialog2/0.25.1792.1036@0.25.1792.1036" timestamp="1632718878346" />
     <state x="635" y="115" key="CommitChangelistDialog2/0.25.1792.1037@0.25.1792.1037" timestamp="1632071221631" />
-    <state width="1332" height="280" key="GridCell.Tab.0.bottom" timestamp="1632611614853">
-      <screen x="0" y="25" width="1792" height="1035" />
+    <state width="1332" height="280" key="GridCell.Tab.0.bottom" timestamp="1632719227780">
+      <screen x="0" y="25" width="1792" height="1036" />
     </state>
     <state width="1332" height="280" key="GridCell.Tab.0.bottom/0.25.1792.1035@0.25.1792.1035" timestamp="1632611614853" />
-    <state width="1332" height="280" key="GridCell.Tab.0.bottom/0.25.1792.1036@0.25.1792.1036" timestamp="1632611203693" />
-    <state width="1332" height="281" key="GridCell.Tab.0.bottom/0.25.1792.1037@0.25.1792.1037" timestamp="1632071130122" />
-    <state width="1332" height="280" key="GridCell.Tab.0.center" timestamp="1632611614852">
-      <screen x="0" y="25" width="1792" height="1035" />
+    <state width="1332" height="280" key="GridCell.Tab.0.bottom/0.25.1792.1036@0.25.1792.1036" timestamp="1632719227780" />
+    <state width="1332" height="280" key="GridCell.Tab.0.bottom/0.25.1792.1037@0.25.1792.1037" timestamp="1632715143088" />
+    <state width="1332" height="280" key="GridCell.Tab.0.center" timestamp="1632719227779">
+      <screen x="0" y="25" width="1792" height="1036" />
     </state>
     <state width="1332" height="280" key="GridCell.Tab.0.center/0.25.1792.1035@0.25.1792.1035" timestamp="1632611614852" />
-    <state width="1332" height="280" key="GridCell.Tab.0.center/0.25.1792.1036@0.25.1792.1036" timestamp="1632611203693" />
-    <state width="1332" height="281" key="GridCell.Tab.0.center/0.25.1792.1037@0.25.1792.1037" timestamp="1632071130121" />
-    <state width="1332" height="280" key="GridCell.Tab.0.left" timestamp="1632611614851">
-      <screen x="0" y="25" width="1792" height="1035" />
+    <state width="1332" height="280" key="GridCell.Tab.0.center/0.25.1792.1036@0.25.1792.1036" timestamp="1632719227779" />
+    <state width="1332" height="280" key="GridCell.Tab.0.center/0.25.1792.1037@0.25.1792.1037" timestamp="1632715143088" />
+    <state width="1332" height="280" key="GridCell.Tab.0.left" timestamp="1632719227779">
+      <screen x="0" y="25" width="1792" height="1036" />
     </state>
     <state width="1332" height="280" key="GridCell.Tab.0.left/0.25.1792.1035@0.25.1792.1035" timestamp="1632611614851" />
-    <state width="1332" height="280" key="GridCell.Tab.0.left/0.25.1792.1036@0.25.1792.1036" timestamp="1632611203692" />
-    <state width="1332" height="281" key="GridCell.Tab.0.left/0.25.1792.1037@0.25.1792.1037" timestamp="1632071130121" />
-    <state width="1332" height="280" key="GridCell.Tab.0.right" timestamp="1632611614852">
-      <screen x="0" y="25" width="1792" height="1035" />
+    <state width="1332" height="280" key="GridCell.Tab.0.left/0.25.1792.1036@0.25.1792.1036" timestamp="1632719227779" />
+    <state width="1332" height="280" key="GridCell.Tab.0.left/0.25.1792.1037@0.25.1792.1037" timestamp="1632715143087" />
+    <state width="1332" height="280" key="GridCell.Tab.0.right" timestamp="1632719227780">
+      <screen x="0" y="25" width="1792" height="1036" />
     </state>
     <state width="1332" height="280" key="GridCell.Tab.0.right/0.25.1792.1035@0.25.1792.1035" timestamp="1632611614852" />
-    <state width="1332" height="280" key="GridCell.Tab.0.right/0.25.1792.1036@0.25.1792.1036" timestamp="1632611203693" />
-    <state width="1332" height="281" key="GridCell.Tab.0.right/0.25.1792.1037@0.25.1792.1037" timestamp="1632071130121" />
+    <state width="1332" height="280" key="GridCell.Tab.0.right/0.25.1792.1036@0.25.1792.1036" timestamp="1632719227780" />
+    <state width="1332" height="280" key="GridCell.Tab.0.right/0.25.1792.1037@0.25.1792.1037" timestamp="1632715143088" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/greenfield/ui/home/HomeFragment.java</url>
-          <line>102</line>
+          <line>95</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/greenfield/ui/home/HomeFragment.java</url>
-          <line>93</line>
+          <line>86</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/greenfield/ui/home/HomeFragment.java</url>
-          <line>92</line>
+          <line>85</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/greenfield/ui/home/HomeFragment.java</url>
-          <line>90</line>
+          <line>83</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/greenfield/ui/home/HomeFragment.java</url>
-          <line>82</line>
+          <line>75</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/greenfield/ui/home/HomeFragment.java</url>
-          <line>81</line>
+          <line>74</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/greenfield/ui/home/HomeFragment.java</url>
-          <line>50</line>
+          <line>43</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/greenfield/ui/home/HomeFragment.java</url>
-          <line>72</line>
+          <line>65</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/greenfield/ui/home/HomeFragment.java</url>
-          <line>86</line>
+          <line>79</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/greenfield/ui/home/HomeFragment.java</url>
-          <line>87</line>
+          <line>80</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/greenfield/ui/home/HomeFragment.java</url>
-          <line>88</line>
+          <line>81</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/greenfield/ui/home/HomeFragment.java</url>
-          <line>89</line>
+          <line>82</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>

@@ -1,27 +1,20 @@
 package com.example.greenfield.ui.home;
 
 import android.annotation.SuppressLint;
-import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.greenfield.R;
 import com.example.greenfield.databinding.FragmentHomeBinding;
-import com.example.greenfield.service.ClienteListviewAdapter;
-import com.example.greenfield.service.Puntaje;
+import com.example.greenfield.controller.Puntaje;
 
 import org.json.JSONArray;
 import org.json.JSONObject;

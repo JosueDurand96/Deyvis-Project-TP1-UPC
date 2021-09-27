@@ -13,12 +13,10 @@ import android.widget.Toast;
 
 import com.android.volley.AuthFailureError;
 import com.android.volley.Request;
-import com.android.volley.Response;
-import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
-import com.example.greenfield.service.URLs;
-import com.example.greenfield.service.VolleySingleton;
-import com.example.greenfield.service.nthc_usuario;
+import com.example.greenfield.util.URLs;
+import com.example.greenfield.controller.VolleySingleton;
+import com.example.greenfield.model.nthc_usuario;
 
 import org.json.JSONException;
 import org.json.JSONObject;
